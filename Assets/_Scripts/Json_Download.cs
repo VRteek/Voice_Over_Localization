@@ -23,8 +23,8 @@ public class parseJSON {
 public class Json_Download : MonoBehaviour {
 
 	#region Class_GlobalVariables
-   
-	public GameObject contents, slider0, CheckCanvas, NetworkCanvas, CompleteCanvas, interceptor   ;
+
+	public GameObject contents, slider0, CheckCanvas, NetworkCanvas, CompleteCanvas, interceptor;
 	WWW Json_www, Voice_Over_www;
 	JsonData jsonvale;
 	parseJSON parsejson;
@@ -45,8 +45,8 @@ public class Json_Download : MonoBehaviour {
 		Screen.sleepTimeout = 0;
 		// request server to get json and get data
 		StartCoroutine (Download_JsonData ());
-        
-    }
+
+	}
 
 	void Update () {
 		//check if  request doesn't empty 
@@ -318,7 +318,7 @@ public class Json_Download : MonoBehaviour {
 
 	// when hit plus button browser will be opened to site that the user can add his voice over clips  
 	public void Add_New_Language () {
-		Application.OpenURL ("http://www.vrteek.com/");
+		Application.OpenURL ("https://cube-room.com/apps/in-body-vr");
 	}
 	// when hit cancel button that appeared on Checkcanvas language in progress will be canceled and start download another language
 	public void OnCancelDownload () {
