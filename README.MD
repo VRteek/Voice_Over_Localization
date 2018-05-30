@@ -14,17 +14,7 @@ this Module also is A part of Two Educational Applications
 
 *[VSCode](https://code.visualstudio.com/) - Visual Studio Code used in manage and writing the scripts.
 
-## Deployment
-
-Android devices with version 5.0 and up
-
-[Google Play Store](https://play.google.com/store/apps/details?id=com.vrteek.solar_system)
-[Google Play Store](https://play.google.com/store/apps/details?id=com.azamoka.inbody_vr)
-
 
 ## Changelog
-### 1.1
-Fixed Used Json to prevent server error
-
 ### 1.0
 Initial release
